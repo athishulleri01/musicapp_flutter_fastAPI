@@ -60,7 +60,7 @@ class _SignInPageState extends State<SignInPage> {
                 text: TextSpan(
                   style: Theme.of(context).textTheme.titleMedium,
                   text: "Already have an account? ",
-                  children: [
+                  children: const [
                     TextSpan(
                         text: "Sign in",
                         style: TextStyle(color: Pallete.gradient2))
